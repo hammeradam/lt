@@ -9,9 +9,9 @@ database: Vercel Postgres
 deployUrl: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fstorage%2Fpostgres-drizzle&project-name=postgres-drizzle&repository-name=postgres-drizzle&demo-title=Vercel%20Postgres%20%2B%20Drizzle%20Next.js%20Starter&demo-description=Simple%20Next.js%20template%20that%20uses%20Vercel%20Postgres%20as%20the%20database%20and%20Drizzle%20as%20the%20ORM.&demo-url=https%3A%2F%2Fpostgres-drizzle.vercel.app%2F&demo-image=https%3A%2F%2Fpostgres-drizzle.vercel.app%2Fopengraph-image.png&stores=%5B%7B"type"%3A"postgres"%7D%5D
 demoUrl: https://postgres-drizzle.vercel.app/
 relatedTemplates:
-  - postgres-starter
-  - postgres-prisma
-  - postgres-kysely
+    - postgres-starter
+    - postgres-prisma
+    - postgres-kysely
 ---
 
 # Vercel Postgres + Drizzle Next.js Starter
