@@ -1,4 +1,4 @@
-import { db, UsersTable } from '@/lib/drizzle';
+import { db, UsersTable } from '@/lib/db/drizzle';
 import { timeAgo } from '@/lib/utils';
 import Image from 'next/image';
 import RefreshButton from './refresh-button';
