@@ -6,12 +6,11 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "build": "next build",
+        "build": "next build && tsx lib/db/migrate.ts",
         "start": "next start",
         "lint": "next lint",
         "migration:generate": "drizzle-kit generate:pg",
-        "migration:run": "dotenv -e .env.development.local tsx lib/db/migrate.ts",
-        "postinstall": "tsx lib/db/migrate.ts"
+        "migration:run": "dotenv -e .env.development.local tsx lib/db/migrate.ts"
     },
     "dependencies": {
         "@types/node": "18.15.11",
